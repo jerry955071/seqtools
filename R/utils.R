@@ -1,5 +1,5 @@
 #' Useful Utilitys for Genomic Data
-#' @rdname utils
+#' @name utils
 #' @aliases s2c 
 #' @aliases c2s 
 #' @aliases base_complement 
