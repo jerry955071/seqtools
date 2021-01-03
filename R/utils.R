@@ -1,10 +1,7 @@
 #' Useful Utilitys for Genomic Data
+#' @rdname utils
 #' @export s2c c2s base_complement reverse_complement
-#' @export 
-#' @export 
-#' @export 
-#' 
-
+#'
 
 s2c = function(string){
   return(strsplit(string, '')[[1]])
