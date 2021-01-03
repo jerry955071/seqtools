@@ -8,6 +8,7 @@
 
 avg.q = function(object){UseMethod('avg.q')}
 
+#' @import magrittr
 #' @rdname  avg.q
 #' @export 
 avg.q.SeqFastq = function(object){
