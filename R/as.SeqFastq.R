@@ -5,7 +5,7 @@
 #' @export
 #' @examples
 #' fastq = as.SeqFastq('ATCGATCGATCGATCG',
-#'                     Qscore = '#&$(U@(#!*#)!(#*'
+#'                     Qscore = '#&$(U@(#!*#)!(#*',
 #'                     ReadName = 'ReadName',
 #'                     RunInfo = 'Run_info_from_sequencing_platform')
 #' fastq
