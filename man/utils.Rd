@@ -9,6 +9,12 @@
 \title{Useful Utilitys for Genomic Data}
 \usage{
 s2c(string)
+
+c2s(chr_vector)
+
+base_complement(base)
+
+reverse_complement(Sequence)
 }
 \description{
 Useful Utilitys for Genomic Data
