@@ -5,17 +5,20 @@
 #' @aliases base_complement 
 #' @aliases reverse_complement
 
-#' @export s2c
+#' @rdname utils
+#' @export 
 s2c = function(string){
   return(strsplit(string, '')[[1]])
 }
 
-#' @export c2s
+#' @rdname utils
+#' @export 
 c2s = function(chr_vector){
   return(paste(chr_vector, collapse = ''))
 }
 
-#' @export base_complement
+#' @rdname utils
+#' @export 
 base_complement = function(base){
   if(base %in% c('A','T','C','G')){
     comp = list('A'='T', 'T'='A', 'C'='G', 'G'='C',
@@ -26,7 +29,8 @@ base_complement = function(base){
   }
 }
 
-#' @export reverse_complement
+#' @rdname utils
+#' @export 
 reverse_complement = function(Sequence){
   s = s2c(Sequence)
   o = as.character(sapply(s, base_complement))
