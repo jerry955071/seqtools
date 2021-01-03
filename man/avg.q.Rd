@@ -5,9 +5,9 @@
 \alias{avg.q.SeqFastq}
 \title{Calculate Average Qscore}
 \usage{
-avg.q(object)
+avg.q(object, round = T)
 
-\method{avg.q}{SeqFastq}(object)
+\method{avg.q}{SeqFastq}(object, round = T)
 }
 \arguments{
 \item{object}{class 'SeqFastq' object}
