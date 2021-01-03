@@ -1,6 +1,9 @@
 #' Useful Utilitys for Genomic Data
 #' @rdname utils
-#' @export s2c c2s base_complement reverse_complement
+#' @aliases s2c 
+#' @aliases c2s 
+#' @aliases base_complement 
+#' @aliases reverse_complement
 #'
 
 s2c = function(string){
