@@ -6,13 +6,17 @@
 #' @examples
 #' avg.q()
 
-avg.q = function(object){UseMethod('avg.q')}
+avg.q = function(object, round = T){UseMethod('avg.q')}
 
 #' @import magrittr
 #' @import gtools
 #' @rdname  avg.q
 #' @export 
-avg.q.SeqFastq = function(object){
+avg.q.SeqFastq = function(object, round = T){
   x = (gtools::asc(attr(object, 'qscore')) %>% drop)-33
   -10*log10(mean(10^(x/-10)))
+  if(round){
+    x = round(x, 1)
+  }
+  return(x)
 }
