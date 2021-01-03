@@ -25,7 +25,6 @@ setNameField.SeqFasta = function(object, method = 'e', keyValue = NULL, sep = ' 
   k = paste(k, collapse = sep)
   if(method == 'e'){
     anno = paste(anno, k, collapse = sep)
-    print(anno)
   }
   if(method == 'r'){
     anno = paste0(substr(anno,1,1), k)
@@ -42,7 +41,6 @@ setNameField.SeqFastq = function(object, method = 'e', keyValue = NULL, sep = ' 
   k = paste(k, collapse = sep)
   if(method == 'e'){
     anno = paste(anno, k, collapse = sep)
-    print(anno)
   }
   if(method == 'r'){
     anno = paste0(substr(anno,1,1), k)
