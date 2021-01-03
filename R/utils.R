@@ -1,9 +1,8 @@
 #' Useful Utilitys for Genomic Data
-#'
-#' @export s2c
-#' @export c2s
-#' @export base_complement
-#' @export reverse_complement
+#' @export s2c c2s base_complement reverse_complement
+#' @export 
+#' @export 
+#' @export 
 #' 
 
 
