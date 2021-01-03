@@ -2,6 +2,9 @@
 % Please edit documentation in R/utils.R
 \name{s2c}
 \alias{s2c}
+\alias{c2s}
+\alias{base_complement}
+\alias{reverse_complement}
 \title{Useful Utilitys for Genomic Data}
 \usage{
 s2c(string)
